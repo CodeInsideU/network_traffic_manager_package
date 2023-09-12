@@ -1,2 +1,4 @@
-*.test-network-manager.js
+test-network-manager.js
 node_modules
+.babelrc
+package-lock.json

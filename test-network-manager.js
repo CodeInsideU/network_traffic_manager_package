@@ -7,7 +7,7 @@ describe('Network Manager', () => {
         this.timeout(10000); // Set a 30-second timeout
         try {
             console.log('Starting test...');
-            const url = 'https://bard.google.com/'; // Use a test API
+            const url = 'https://www.google.com/'; // Use a test API
             const delay = 1000; // 1-second delay
             const numRequests = 5;
 
