@@ -4,7 +4,7 @@ const { makeParallelRequests } = require('./network-manager');
 // Rest of your test code...
 describe('Network Manager', () => {
     it('should make multiple requests in parallel with a delay', async function () {
-        this.timeout(10000); // Set a 30-second timeout
+        this.timeout(10000); // Set a 10-second timeout
         try {
             console.log('Starting test...');
             const url = 'https://www.google.com/'; // Use a test API
